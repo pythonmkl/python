@@ -5,9 +5,8 @@ from bs4 import BeautifulSoup
 
 
 def downloadwebpage(url):
-
     while url and url != 'None':
-        # Download the webpage
+        # for some pages we need to set this cookie
         cookies = {
             'over18': 'yeah'
         }
